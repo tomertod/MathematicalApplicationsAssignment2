@@ -48,6 +48,6 @@ The function `trapezoidal_integral` approximates the definite integral (the area
 area = trapezoidal_integral(f, a=0, b=1, n=100)
 ```
 
-### ### Constraints & Notes:
+### Constraints & Notes:
 1. No External Libraries: The solution is implemented using only native Python features (lists, loops, basic math).
 2. Efficiency: The integration method is optimized to evaluate the function $f(x)$ only once for each point in the interval.
