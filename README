@@ -1,0 +1,15 @@
+Tomer
+Todria
+318784709 
+
+Asaf
+Katz
+323841338
+
+******************************
+
+==== הסברים חלק 1: ====
+This function evaluates the Lagrange interpolating polynomial at a given point x, using a list of known points lst containing (xj, yj) pairs. It constructs the polynomial as a weighted sum of basis polynomials, each of which is 1 at its corresponding xj and 0 at all other xk, effectively interpolating the function that passes through all given points.
+
+==== הסברים חלק 2: ====
+This function trapezoidal_integral approximates the definite integral of a given function f over the interval [a, b] using the trapezoidal rule. It divides the interval into n equal subintervals, evaluates the function at each subdivision point, and computes the weighted sum of these values, giving half weight to the endpoints. The result is an estimate of the area under the curve of f between a and b.
